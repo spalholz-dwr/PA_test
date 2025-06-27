@@ -1,0 +1,41 @@
+! New Baselines version (Jun 2009), based on (version 9B1) Common Assumptions CMP
+! Edited 11/4/2024 Pspalholz. Matched 2020D09E Level of Development Assumptions
+! Template based on source spreadsheet: FIXED_BST_SWP_SOD_2021DCR_Oct2021.xlsm
+swp_3pattern_SLRule_new
+month            percent          demand           remainDemand
+                7               30              152             3242
+                8               30              172             3091
+                9               30              289             2919
+               10               30              518             2630
+               11               30              597             2112
+               12               30              432             1515
+                1               30              427             1083
+                2               30              326              656
+                3               30              330              330
+                7               50              136             3191
+                8               50              211             3055
+                9               50              385             2845
+               10               50              526             2459
+               11               50              558             1933
+               12               50              433             1375
+                1               50              333              942
+                2               50              317              608
+                3               50              292              292
+                7               60              143             3481
+                8               60              229             3338
+                9               60              427             3109
+               10               60              580             2682
+               11               60              615             2102
+               12               60              475             1487
+                1               60              363             1012
+                2               60              339              649
+                3               60              310              310
+                7              100              185             2934
+                8              100              274             2749
+                9              100              366             2475
+               10              100              472             2109
+               11              100              467             1637
+               12              100              351             1170
+                1              100              260              819
+                2              100              295              559
+                3              100              264              264

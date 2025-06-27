@@ -1,0 +1,4 @@
+==================
+1980_01_c24
+==================
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\deliverylogic\swp\allocation\carryover_allocation.wresl:190)1980/1/31 cycle 24 (gw_initial), tot_co_account in svar definition: The data requested for timeseries tot_co_account does not match the entries in the dss file. Please check the name, kind, unit, and requested time period.

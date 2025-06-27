@@ -1,0 +1,10 @@
+wrims2 revision:: null
+jCbc dll name:: jCbc
+cbcViolationCheck =false
+lowerBoundZero_check =1.0E-6
+cbcSolutionRounding =true
+cbc2021 =true
+cbc2021a =true
+jCbc version:: 2.9.9.2pre9b (Dec 28 2021)
+cbcWhsScaling =true
+cbcWhsSafe =false

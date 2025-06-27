@@ -1,0 +1,23 @@
+wrims2 revision:: null
+jCbc dll name:: jCbc
+cbcViolationCheck =false
+lowerBoundZero_check =1.0E-6
+cbcSolutionRounding =true
+cbc2021 =true
+cbc2021a =true
+jCbc version:: 2.9.9.2pre9b (Dec 28 2021)
+cbcWhsScaling =true
+cbcWhsSafe =false
+1982_10_c33:  Solve_c__ infeasible. Use callCbcR.
+CbcTolerancePrimal: 1.0E-9
+CbcTolerancePrimalRelax: 1.0E-7
+CbcToleranceInteger: 1.0E-9
+CbcToleranceIntegercheck: 1.0E-8
+CbcToleranceWarmPrimal: 1.0E-9
+CbcToleranceZero: 1.0E-11
+CbcHintTimeMax: 100
+CbcHintRelaxPenalty: 9000.0
+CbcSolutionRounding: true
+Finding constraints that cause infeasibility...
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\delta\export_ops\smelt_fallx2_limcvpsw.wresl:211) calccvpfallx2_swinitdv:  cvpfallx2_swinitdv = -1.657593547444776
+Infeasibility analysis ended.

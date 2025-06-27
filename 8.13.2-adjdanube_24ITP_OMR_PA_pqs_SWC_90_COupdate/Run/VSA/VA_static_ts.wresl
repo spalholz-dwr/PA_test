@@ -1,0 +1,10 @@
+! VA_static_ts.wresl
+
+! Read in VA flow estimates from "LTO_Study_7.23.0_12av2_wsidi_danubeadjv1.8.2" for use in Rio Vista and Vernalis Flow estimates for high flow offramp trigger
+
+define NDOI_ADD_SACVAest        {timeseries 'NDOI_ADD_SACVAest_SV' kind 'VA-VOLUME' units 'CFS'}
+define NDOI_ADD_FeatherVAest    {timeseries 'NDOI_ADD_FeatherVAest_SV' kind 'VA-VOLUME' units 'CFS'}
+define NDOI_ADD_AMERVAsv        {timeseries 'NDOI_ADD_AMERVA_SV' kind 'VA-VOLUME' units 'CFS'}
+define Yuba_VA_Add              {timeseries 'Yuba_VA_Add_SV' kind 'VA-VOLUME' units 'CFS'}
+define FriantVA_estflow         {timeseries 'FriantVA_estflow_SV' kind 'VA-VOLUME' units 'CFS'}
+define YWA_VA_Transfer			{timeseries 'YWA_VA_Transfer_SV' kind 'VA-VOLUME' units 'CFS'}

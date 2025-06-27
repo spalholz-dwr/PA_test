@@ -1,0 +1,21 @@
+wrims2 revision:: 3748.65e7aeeee.master-dirty.2024-05-02.15:46:38
+jCbc dll name:: jCbc
+cbcViolationCheck =false
+lowerBoundZero_check =1.0E-6
+cbcSolutionRounding =true
+cbc2021 =true
+cbc2021a =true
+jCbc version:: 2.9.9.2pre9b (Dec 28 2021)
+cbcWhsScaling =true
+cbcWhsSafe =false
+1999_11_c38:  Solve_c__ infeasible. Use callCbcR.
+CbcTolerancePrimal: 1.0E-9
+CbcTolerancePrimalRelax: 1.0E-7
+CbcToleranceInteger: 1.0E-9
+CbcToleranceIntegercheck: 1.0E-8
+CbcToleranceWarmPrimal: 1.0E-9
+CbcToleranceZero: 1.0E-11
+CbcHintTimeMax: 100
+CbcHintRelaxPenalty: 9000.0
+CbcSolutionRounding: true
+Infeasibility analysis ended.

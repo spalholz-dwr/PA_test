@@ -1,0 +1,13 @@
+wrims2 revision:: null
+jCbc dll name:: jCbc
+cbcViolationCheck =false
+lowerBoundZero_check =1.0E-6
+cbcSolutionRounding =true
+cbc2021 =true
+cbc2021a =true
+jCbc version:: 2.9.9.2pre9b (Dec 28 2021)
+cbcWhsScaling =true
+cbcWhsSafe =false
+1984_03_c32:  Solve_c__ infeasible. Use callCbcR.
+1984_03_c33:  Solve_c__ infeasible. Use callCbcR.
+1984_03_c34:  Solve_c__ infeasible. Use callCbcR.

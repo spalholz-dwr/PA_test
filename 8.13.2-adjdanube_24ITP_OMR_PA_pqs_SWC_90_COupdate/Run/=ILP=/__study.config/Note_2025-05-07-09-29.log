@@ -1,0 +1,29 @@
+wrims2 revision:: null
+jCbc dll name:: jCbc
+cbcViolationCheck =false
+lowerBoundZero_check =1.0E-6
+cbcSolutionRounding =true
+cbc2021 =true
+cbc2021a =true
+jCbc version:: 2.9.9.2pre9b (Dec 28 2021)
+cbcWhsScaling =true
+cbcWhsSafe =false
+1979_05_c04:  Solve_c__ infeasible. Use callCbcR.
+CbcTolerancePrimal: 1.0E-9
+CbcTolerancePrimalRelax: 1.0E-7
+CbcToleranceInteger: 1.0E-9
+CbcToleranceIntegercheck: 1.0E-8
+CbcToleranceWarmPrimal: 1.0E-9
+CbcToleranceZero: 1.0E-11
+CbcHintTimeMax: 100
+CbcHintRelaxPenalty: 9000.0
+CbcSolutionRounding: true
+Finding constraints that cause infeasibility...
+Infeasibility analysis ended.
+The following constraints might cause infeasibility.
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\system\systemtables_upperfeather\arcs-minflows.wresl:24) setorovillefnf_updatemarchdv:  orovillefnf_updatemarchdv = -9999
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\system\systemtables_upperfeather\arcs-minflows.wresl:184) setorovillefnf_westfeathdv:  orovillefnf_westfeathdv = -8233.870781057452
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\system\systemtables_upperfeather\arcs-minflows.wresl:362) setorovillefnf_wydv:  orovillefnf_wydv = -9999
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\northofdelta\upperfeather\slatecreekdiversion.wresl:54) set_nbbcuminflowdv:  nbbcuminflowdv = -9285.72455325622
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\northofdelta\upperfeather\slatecreekdiversion.wresl:77) set_nbbcuminflow2dv:  nbbcuminflow2dv = -9284.13777639682
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\northofdelta\upperfeather\slatecreekdiversion.wresl:102) set_slatecreekcumdsdv:  slatecreekcumdsdv = -10593.98181814248

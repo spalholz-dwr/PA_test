@@ -1,0 +1,4 @@
+==================
+1980_08_c33
+==================
+1980/8/31 cycle 33 (delta_srpls), calccvpfallx2_swdv in constraint definition: variable inside max function should not contain decision variable.

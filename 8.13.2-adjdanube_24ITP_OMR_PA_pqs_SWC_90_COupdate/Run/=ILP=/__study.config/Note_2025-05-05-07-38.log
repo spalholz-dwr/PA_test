@@ -1,0 +1,46 @@
+wrims2 revision:: null
+jCbc dll name:: jCbc
+cbcViolationCheck =false
+lowerBoundZero_check =1.0E-6
+cbcSolutionRounding =true
+cbc2021 =true
+cbc2021a =true
+jCbc version:: 2.9.9.2pre9b (Dec 28 2021)
+cbcWhsScaling =true
+cbcWhsSafe =false
+1984_10_c38:  Solve_c__ infeasible. Use callCbcR.
+CbcTolerancePrimal: 1.0E-9
+CbcTolerancePrimalRelax: 1.0E-7
+CbcToleranceInteger: 1.0E-9
+CbcToleranceIntegercheck: 1.0E-8
+CbcToleranceWarmPrimal: 1.0E-9
+CbcToleranceZero: 1.0E-11
+CbcHintTimeMax: 100
+CbcHintRelaxPenalty: 9000.0
+CbcSolutionRounding: true
+Finding constraints that cause infeasibility...
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\system\systemtables_sac\constraints-wufactors.wresl:674) setlf_11_sa1:  lf_11_sa1 -0.03 d_wec005_11_sa1 = 0
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\system\systemtables_sac\constraints-wufactors.wresl:675) setos_11_sa1:  os_11_sa1 -0.03 d_wec005_11_sa1 = 0
+Finding constraints that cause infeasibility...
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\system\systemtables_sac\constraints-wufactors.wresl:678) setru_11_sa1:  ru_11_sa1 = 4.400948852801915
+Finding constraints that cause infeasibility...
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\system\systemtables_sac\constraints-wufactors.wresl:681) setrp_11_sa1:  rp_11_sa1 -0.05 aw_11_sa1 = 0
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\system\systemtables_sac\constraints-deliveries.wresl:562) meetaw_11_sa1:  rp_11_sa1 - dn_11_sa1 - gp_11_sa1 - ru_11_sa1 = -305.02314578445186
+Finding constraints that cause infeasibility...
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\system\systemtables_sac\constraints-wufactors.wresl:673) setdp_11_sa1:  dp_11_sa1 -0.03 d_wec005_11_sa1 = 0
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\system\systemtables_sac\constraints-deliveries.wresl:559) setdn_11_sa1:  dn_11_sa1 - dg_11_sa1 + dl_11_sa1 = 0
+Finding constraints that cause infeasibility...
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\system\systemtables_sac\constraints-gwpumping.wresl:331) gpmin_11_sa1_dv__alias:  gpmin_11_sa1_dv = 18.952401253252354
+Finding constraints that cause infeasibility...
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\system\systemtables_sac\constraints-deliveries.wresl:557) setdg_11_sa1:  dg_11_sa1 - d_wec005_11_sa1 = 0
+Finding constraints that cause infeasibility...
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\system\systemtables_sac\constraints-wufactors.wresl:676) setdl_11_sa1:  dl_11_sa1 - ev_11_sa1 - dp_11_sa1 - lf_11_sa1 - os_11_sa1 = 0
+Finding constraints that cause infeasibility...
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\system\systemtables_sac\constraints-wufactors.wresl:672) setev_11_sa1:  ev_11_sa1 -0.01 d_wec005_11_sa1 = 0
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\system\systemtables_sac\constraints-gwpumping.wresl:332) setgpmin_11_sa1:  gp_11_sa1 - surplus__setgpmin_11_sa1_1 - gpmin_11_sa1_dv = 0
+Finding constraints that cause infeasibility...
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\northofdelta\feather\frsa.wresl:59) setd_wec005_btc032:  d_wec005_btc032 + slack__setd_wec005_btc032_2 = 140
+Finding constraints that cause infeasibility...
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\system\systemtables_sac\constraints-contracts.wresl:383) limitd_wec005_11_sa1:  d_wec005_11_sa1 + d_wec005_11_pr + d_wec005_btc032 < 449.92366269814727
+Infeasibility analysis ended.
+1984_10_c38:  cR_ time(sec): 13.423

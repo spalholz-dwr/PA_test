@@ -1,0 +1,36 @@
+wrims2 revision:: null
+jCbc dll name:: jCbc
+cbcViolationCheck =false
+lowerBoundZero_check =1.0E-6
+cbcSolutionRounding =true
+cbc2021 =true
+cbc2021a =true
+jCbc version:: 2.9.9.2pre9b (Dec 28 2021)
+cbcWhsScaling =true
+cbcWhsSafe =false
+1980_05_c22:  Solve_c__ infeasible. Use callCbcR.
+CbcTolerancePrimal: 1.0E-9
+CbcTolerancePrimalRelax: 1.0E-7
+CbcToleranceInteger: 1.0E-9
+CbcToleranceIntegercheck: 1.0E-8
+CbcToleranceWarmPrimal: 1.0E-9
+CbcToleranceZero: 1.0E-11
+CbcHintTimeMax: 100
+CbcHintRelaxPenalty: 9000.0
+CbcSolutionRounding: true
+Finding constraints that cause infeasibility...
+Infeasibility analysis ended.
+The following constraints might cause infeasibility.
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\camplus\network\connectivity.wresl:27) set_s_orovl_fm:  s_orovl - surplus__set_s_orovl_fm_1 + slack__set_s_orovl_fm_1 + c4_fm = -173085.3711855725
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\camplus\network\connectivity.wresl:42) set_s_folsm_fm:  s_folsm - surplus__set_s_folsm_fm_1 + slack__set_s_folsm_fm_1 + c5_fm = 1608.2395768230797
+ set_s_orovl_fm__fut__1:  s_orovl__fut__1 - surplus__set_s_orovl_fm_1__fut__1 + slack__set_s_orovl_fm_1__fut__1 - s_orovl + c4_fm__fut__1 = -94192.370891214
+ set_s_orovl_fm__fut__2:  s_orovl__fut__2 - s_orovl__fut__1 + c4_fm__fut__2 = -40208.56982635215
+ set_s_orovl_fm__fut__3:  s_orovl__fut__3 - s_orovl__fut__2 + c4_fm__fut__3 = -24577.95377045503
+ set_s_orovl_fm__fut__4:  s_orovl__fut__4 - s_orovl__fut__3 + c4_fm__fut__4 = -20364.631423644896
+ set_s_folsm_fm__fut__1:  s_folsm__fut__1 - surplus__set_s_folsm_fm_1__fut__1 + slack__set_s_folsm_fm_1__fut__1 - s_folsm + c5_fm__fut__1 = 402.6602557863201
+ set_s_folsm_fm__fut__2:  s_folsm__fut__2 - s_folsm__fut__1 + c5_fm__fut__2 = 73.74163753446213
+ set_s_folsm_fm__fut__3:  s_folsm__fut__3 - s_folsm__fut__2 + c5_fm__fut__3 = -19.15699564348978
+ set_s_folsm_fm__fut__4:  s_folsm__fut__4 - s_folsm__fut__3 + c5_fm__fut__4 = -18.026598982215937
+ set_coa_cvp_fm__fut__2:  d33e_1_fm__fut__2 + slack__set_coa_cvp_fm_1__fut__2 - s_shsta_chg_fm__fut__2 - s_folsm_chg_fm__fut__2 - c2_fm__fut__2 +0.8 ibu_fm__fut__2 -0.55 uwfe_fm__fut__2 + d33d_2_fm__fut__2 + c33b_cvp_fm__fut__2 = -122.41975
+ set_coa_cvp_fm__fut__3:  d33e_1_fm__fut__3 + slack__set_coa_cvp_fm_1__fut__3 - s_shsta_chg_fm__fut__3 - s_folsm_chg_fm__fut__3 - c2_fm__fut__3 +0.8 ibu_fm__fut__3 -0.55 uwfe_fm__fut__3 + d33d_2_fm__fut__3 + c33b_cvp_fm__fut__3 = -94.931793
+ set_coa_cvp_fm__fut__4:  d33e_1_fm__fut__4 + slack__set_coa_cvp_fm_1__fut__4 - s_shsta_chg_fm__fut__4 - s_folsm_chg_fm__fut__4 - c2_fm__fut__4 +0.8 ibu_fm__fut__4 -0.55 uwfe_fm__fut__4 + d33d_2_fm__fut__4 + c33b_cvp_fm__fut__4 = -72.51181

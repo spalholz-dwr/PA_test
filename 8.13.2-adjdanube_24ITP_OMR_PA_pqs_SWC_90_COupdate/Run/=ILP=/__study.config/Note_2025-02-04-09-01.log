@@ -1,0 +1,33 @@
+wrims2 revision:: 3748.65e7aeeee.master-dirty.2024-05-02.15:46:38
+jCbc dll name:: jCbc
+cbcViolationCheck =false
+lowerBoundZero_check =1.0E-6
+cbcSolutionRounding =true
+cbc2021 =true
+cbc2021a =true
+jCbc version:: 2.9.9.2pre9b (Dec 28 2021)
+cbcWhsScaling =true
+cbcWhsSafe =false
+2015_04_c14:  Solve_c__ infeasible. Use callCbcR.
+CbcTolerancePrimal: 1.0E-9
+CbcTolerancePrimalRelax: 1.0E-7
+CbcToleranceInteger: 1.0E-9
+CbcToleranceIntegercheck: 1.0E-8
+CbcToleranceWarmPrimal: 1.0E-9
+CbcToleranceZero: 1.0E-11
+CbcHintTimeMax: 100
+CbcHintRelaxPenalty: 9000.0
+CbcSolutionRounding: true
+Finding constraints that cause infeasibility...
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\sanjoaquin\friant\sjr_rest_req_cycle1.wresl:9) setmlrtn_rel:  c_mlrtn > 2714.7310089285716
+Finding constraints that cause infeasibility...
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\sanjoaquin\integratedoperations\system\usjrs\connectivity-table.wresl:3) continuitymlrtn:  c17 + c16_tfb - c_mlrtn - d_mlrtn_frk000 - d_mlrtn_mdc006 - e_mlrtn -16.80555555666667 s_mlrtn = -2370.5664218132565
+Finding constraints that cause infeasibility...
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\sanjoaquin\integratedoperations\system\usjrs\base\reservoir-table.wresl:24) evap17:  e17 = 0
+Finding constraints that cause infeasibility...
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\sanjoaquin\integratedoperations\system\usjrs\connectivity-table.wresl:2) continuity17:  c16 - c17 - f17 - e17 -16.80555555666667 s17 = 0
+Finding constraints that cause infeasibility...
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\sanjoaquin\integratedoperations\system\usjrs\connectivity-table.wresl:1) continuity16: - c16 - c16_tfb = -1.361250064198107
+Finding constraints that cause infeasibility...
+(c:\pa\8.13.2-adjdanube_24itp_omr_pa_pqs_swc_90_coupdate\run\system\systemtables_sjreast\constraints-reservoirs.wresl:41) evap_mlrtn: 59.5041322274708 e_mlrtn -0.2075000007947286 a_mlrtn = 449.6906995228499
+Infeasibility analysis ended.

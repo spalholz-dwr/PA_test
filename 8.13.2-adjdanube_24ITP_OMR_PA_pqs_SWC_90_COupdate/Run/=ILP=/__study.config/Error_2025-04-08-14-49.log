@@ -1,0 +1,4 @@
+==================
+1981_04_c24
+==================
+1981/4/30 cycle 24 (gw_initial), fill_rate_cstic in constraint definition: variable inside max function should not contain decision variable.
