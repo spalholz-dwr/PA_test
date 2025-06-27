@@ -9,7 +9,7 @@ svar RUFRmax {value 0.0}
 svar LODflag                    {value 0.} !0 for existing conditions (historical/validation runs); 1 for buildout/future conditions
 svar ICC	                    {value 0.} !HYDROFORECAST DLL option: 0 = historical forecast, 1 = climate change forecast
 svar PA_switch					{value 1.} ! If this is a PA run, enter 1
-svar GenTables_switch 			{value 0.}
+svar GenTables_switch 			{value 1.}
 
 !WQ certifications MIFs or Old FERC Licenses (Default: 0 for existing values,1 for New WQ requirements)
 svar P2088_WQCFlag              {value 0.} !FERC Project P-2088 
